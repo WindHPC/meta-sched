@@ -105,7 +105,7 @@ class Target(BaseModel):
     queue : str | None
         The name of the queue/partition used by the target (if applicable, e.g. for Slurm or PBS)
     constraints : str | None
-        Constraints expression to be used by Slurm (ignore by others)
+        Constraints expression to be used by Slurm (ignored by others)
     host : str
         The hostname used to connect to the target
     nodes : int
